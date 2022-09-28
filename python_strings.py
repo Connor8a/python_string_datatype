@@ -8,6 +8,7 @@ my_first_name = 'Connor'
 #       -set this equal to your last name
 my_last_name = 'Ochoa'
 
+
 #   - my_year_of_birth
 my_birth_year = 2003
 
@@ -27,9 +28,12 @@ current_year = 2022
 #       - second letter of your last name (use the -index)
 #       - first two letter of your first name (use the +index)
 #       - second two letter of your last name (use the -index)
-
-
-
+print (my_first_name)
+print (my_last_name)
+print (my_first_name[3])
+print (my_last_name[-4])
+print (my_first_name[0:2])
+print (my_last_name[-3:])
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
