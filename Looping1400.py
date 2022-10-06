@@ -40,10 +40,10 @@ for count in range(15, 2, -1 ): # start, end increment by
 #counting cookies
 cookies = int( input("How many cookies are in the cookie jar? " ))
 for count in range(cookies, 0, -1):
-    if count == 1:
-        print("1 cookie, I have 1 cookie")
-    else:
+    if count != 1:
         print(count,"cookies")
+    else:
+        print("1 cookie, I have 1 cookie")
     
     
     
